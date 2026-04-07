@@ -169,3 +169,14 @@ h3 {
   margin: 0 auto 20px auto;
   display: block;
 }
+.cards-publics .card {
+  flex: 1 1 calc(50% - 10px);
+  max-width: calc(50% - 10px);
+}
+
+@media (max-width: 700px) {
+  .cards-publics .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
