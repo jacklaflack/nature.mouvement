@@ -146,6 +146,11 @@ h3 {
 }
 .card img {
   width: 100%;
+  aspect-ratio: 1 / 1;   /* ← carré parfait */
+  object-fit: cover;     /* ← recadre sans déformer */
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
   border-radius: 12px;
   margin-bottom: 15px;
 }
