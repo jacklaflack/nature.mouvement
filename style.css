@@ -123,3 +123,16 @@ p {
     margin: 8px 10px;
   }
 }
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+h3 {
+  margin-top: 25px;
+  color: #3f5a36;
+}
