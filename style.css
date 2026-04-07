@@ -144,3 +144,8 @@ h3 {
   margin-top: 25px;
   color: #3f5a36;
 }
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
