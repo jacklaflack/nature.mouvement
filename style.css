@@ -57,8 +57,16 @@ header p {
   font-weight: bold;
 }
 
-.btn:hover {
-  background: #ebe7dc;
+.btn {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 12px 24px;
+  background: #f6f4ee;
+  color: #3f5a36;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: bold;
+  white-space: nowrap;  /* ← AJOUT ICI */
 }
 
 main {
