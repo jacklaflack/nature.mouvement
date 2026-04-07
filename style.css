@@ -12,19 +12,15 @@ nav {
 }
 
 nav a {
-  color: #3f5a36;
+  color: #f6f4ee;
   margin: 0 18px;
   text-decoration: none;
   font-weight: 600;
   font-size: 15px;
+  transition: color 0.2s ease;
 }
-
-nav a {
-  color: #f6f4ee; /* beige clair */
-  margin: 0 18px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 15px;
+nav a:hover {
+  color: #cfd8c6;
 }
 
 header {
@@ -158,9 +154,6 @@ h3 {
   width: 100%;
   aspect-ratio: 1 / 1;   /* ← carré parfait */
   object-fit: cover;     /* ← recadre sans déformer */
-  border-radius: 12px;
-  margin-bottom: 15px;
-}
   border-radius: 12px;
   margin-bottom: 15px;
 }
