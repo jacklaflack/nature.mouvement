@@ -26,7 +26,7 @@ nav a:hover {
 
 header {
   background: linear-gradient(rgba(63, 90, 54, 0.28), rgba(63, 90, 54, 0.28)),
-              url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80');
+              url('images/lac.jpg');
   background-size: cover;
   background-position: center;
   color: white;
