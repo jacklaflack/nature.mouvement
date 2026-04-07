@@ -6,10 +6,9 @@ body {
 }
 
 nav {
-  background: rgba(246, 244, 238, 0.95);
+  background: #3f5a36; /* vert naturel */
   padding: 18px;
   text-align: center;
-  border-bottom: 1px solid #ddd8cc;
 }
 
 nav a {
