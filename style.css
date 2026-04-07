@@ -180,3 +180,27 @@ h3 {
     max-width: 100%;
   }
 }
+.contact {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contact-box {
+  margin-top: 30px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #e5e0d5;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  display: inline-block;
+}
+
+.contact-box a {
+  color: #3f5a36;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
