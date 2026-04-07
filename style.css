@@ -189,8 +189,9 @@ h3 {
   font-weight: bold;
 }
 footer {
-  background: #3f5a36;
-  color: #f6f4ee;
+  background: transparent;
+  border-top: 1px solid #ddd8cc;
+  color: #3f5a36;
   text-align: center;
   padding: 30px 20px;
   margin-top: 60px;
