@@ -214,3 +214,7 @@ footer a:hover {
 .contact-box a:hover {
   text-decoration: underline;
 }
+nav a.active {
+  border-bottom: 2px solid #f6f4ee;
+  padding-bottom: 4px;
+}
