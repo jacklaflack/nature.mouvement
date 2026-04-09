@@ -97,7 +97,7 @@ section {
   padding: 10px 5px;
 }
 
-section:nth-child(even) {
+.section-soft {
   background: #f0eee7;
   padding: 30px;
   border-radius: 12px;
