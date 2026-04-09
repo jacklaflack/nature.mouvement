@@ -232,3 +232,44 @@ nav a.active {
   border-radius: 50%;
   margin-bottom: 15px;
 }
+
+.cta {
+  text-align: center;
+  margin-top: 60px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section:nth-child(even) {
+  background: #f0eee7;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+section {
+  padding: 10px 5px;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto 15px auto;
+}
+
+.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
