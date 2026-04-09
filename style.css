@@ -281,3 +281,7 @@ p {
   text-align: center;
 }
 
+h2 {
+  border-left: 4px solid #3f5a36;
+  padding-left: 10px;
+}
