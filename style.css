@@ -17,20 +17,25 @@ nav {
 
 nav a {
   color: #f6f4ee;
-  margin: 0 18px;
+  margin: 0 10px;
   text-decoration: none;
   font-weight: 600;
   font-size: 15px;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, background-color 0.25s ease, transform 0.25s ease;
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
 }
 
 nav a:hover {
-  color: #cfd8c6;
+  color: #ffffff;
+  background: rgba(246, 244, 238, 0.15);
+  transform: translateY(-2px);
 }
 
 nav a.active {
-  background: rgba(246, 244, 238, 0.15);
-  padding: 6px 12px;
+  background: rgba(246, 244, 238, 0.18);
+  padding: 8px 14px;
   border-radius: 999px;
 }
 
