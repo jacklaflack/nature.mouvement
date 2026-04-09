@@ -239,6 +239,19 @@ li {
   padding-top: 5px;
 }
 
+.cta .btn {
+  background: #3f5a36;
+  color: #f6f4ee;
+  box-shadow: 0 6px 18px rgba(63, 90, 54, 0.18);
+}
+
+.cta .btn:hover {
+  background: #4b6941;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(63, 90, 54, 0.24);
+}
+
 footer {
   background: #3f5a36;
   color: #f6f4ee;
