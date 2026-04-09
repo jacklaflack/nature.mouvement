@@ -11,6 +11,7 @@ nav {
   text-align: center;
   position: sticky;
   top: 0;
+  z-index: 1000;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
@@ -284,6 +285,18 @@ p {
 
 .card {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card {
+  flex: 1 1 calc(33.33% - 14px);
+  max-width: calc(33.33% - 14px);
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid #e5e0d5;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+  position: relative;
 }
 
 .card:hover {
