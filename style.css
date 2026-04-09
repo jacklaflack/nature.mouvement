@@ -319,3 +319,11 @@ footer a {
     gap: 10px;
   }
 }
+
+.profil-nom {
+  font-size: 13px;
+  color: #9aa59a;
+  margin-top: 8px;
+  font-style: italic;
+}
+
