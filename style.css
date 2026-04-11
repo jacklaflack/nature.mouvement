@@ -327,3 +327,38 @@ footer a {
   font-style: italic;
 }
 
+.cards-animations-list .card {
+  flex: 1 1 calc(33.33% - 14px);
+  max-width: calc(33.33% - 14px);
+}
+
+.cards-animations-list .card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:hover h3 {
+  color: #2f4729;
+}
+
+.public {
+  color: #6f7868;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@media (max-width: 700px) {
+  .cards-animations-list .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
