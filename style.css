@@ -446,3 +446,10 @@ footer a {
   }
 }
 
+.cards-public-categories .description {
+  font-size: 13px;
+  color: #6f7868;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
