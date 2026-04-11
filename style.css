@@ -426,8 +426,8 @@ footer a {
 }
 
 .cards-detail .card {
-  flex: 1 1 calc(50% - 10px);
-  max-width: calc(50% - 10px);
+  flex: 1 1 calc(33.33% - 14px);
+  max-width: calc(33.33% - 14px);
 }
 
 .cards-detail .card img {
