@@ -445,3 +445,8 @@ footer a {
     max-width: 100%;
   }
 }
+
+.cards-public-categories {
+  gap: 15px;
+}
+
