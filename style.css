@@ -417,3 +417,24 @@ footer a {
     max-width: 100%;
   }
 }
+
+.cards-detail .card {
+  flex: 1 1 calc(50% - 10px);
+  max-width: calc(50% - 10px);
+}
+
+.cards-detail .card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .cards-detail .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
