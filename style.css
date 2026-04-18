@@ -495,3 +495,30 @@ footer a {
     height: 160px;
   }
 }
+
+.cards-oeuvres .card {
+  flex: 1 1 calc(33.33% - 14px);
+  max-width: calc(33.33% - 14px);
+  text-align: center;
+}
+
+.cards-oeuvres img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.titre-oeuvre {
+  font-size: 13px;
+  color: #7d8774;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .cards-oeuvres .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
