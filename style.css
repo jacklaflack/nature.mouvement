@@ -453,49 +453,6 @@ footer a {
   line-height: 1.4;
 }
 
-.qui-suis-je {
-  margin-bottom: 60px;
-}
-
-.qui-container {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.qui-image img {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.qui-texte {
-  flex: 1;
-  max-width: 600px;
-}
-
-.qui-texte h2 {
-  margin-bottom: 15px;
-}
-
-.qui-texte p {
-  margin-bottom: 12px;
-}
-
-@media (max-width: 700px) {
-  .qui-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .qui-image img {
-    width: 160px;
-    height: 160px;
-  }
-}
-
 .cards-oeuvres .card {
   flex: 1 1 calc(33.33% - 14px);
   max-width: calc(33.33% - 14px);
