@@ -226,11 +226,15 @@ li {
 }
 
 .intro-profil img {
-  width: 140px;
-  height: 140px;
+  width: 280px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 16px;
   margin-bottom: 15px;
+}
+
+.intro-profil img {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 .cta {
